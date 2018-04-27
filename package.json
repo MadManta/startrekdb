@@ -1,10 +1,13 @@
+
+
 {
   "name": "startrekdb",
   "version": "1.0.0",
   "description": "Testing heroku with an add-your-own star trek DB",
   "main": "startrek.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node startrek.js"
   },
   "repository": {
     "type": "git",
