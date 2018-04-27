@@ -1,18 +1,24 @@
 {
-  "name": "week14",
+  "name": "startrekdb",
   "version": "1.0.0",
-  "description": "",
-  "main": "mainserver.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3"
-  },
-  "devDependencies": {},
+  "description": "Testing heroku with an add-your-own star trek DB",
+  "main": "startrek.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadManta/startrekdb.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadManta/startrekdb/issues"
+  },
+  "homepage": "https://github.com/MadManta/startrekdb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
 }
